@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "d36e3e91-539f-4e65-87c2-55c0048d2fa6",
+  "alias": "MatchMakerWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "MatchMaker" },
+    "description": { "default": "MatchMaker description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "MatchMaker"
+    }
+  }]
+}
